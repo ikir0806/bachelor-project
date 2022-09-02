@@ -1,0 +1,16 @@
+.slider {
+    &__img {
+        padding: 340px 0 0 0;
+        width: 500px;
+        min-height: 500px;
+        object-fit: cover;
+        margin: 0 auto;
+        top: 50%;
+        margin-top: -50px;
+    }
+
+    &__arrows {
+        padding: 300px 0 0 0;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,40 @@
+.greetings {
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+
+    &__wrp {
+        padding: 100px 80px 0 0;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+
+    &__company {
+        /* left: 545px;
+        top: 20px;
+        position: absolute; */
+        color: white;
+        font-size: 50px;
+    }
+
+    &__title {
+        text-align: center;
+        color: white;
+        @include font (40px, 26px, 400);
+        padding: 70px 0 0 0;
+    }
+
+    &__description {
+        text-align: center;
+        color: white;
+        @include font (24px, 36px, 400);
+        padding: 50px 0 0 0;
+    }
+
+    &__logo {
+        /* padding: 0 150px 0 0; */
+        width: 120px;
+        min-height: 120px;
+    }
+}

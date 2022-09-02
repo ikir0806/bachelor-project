@@ -1,0 +1,28 @@
+.info {
+    height: 800px;
+
+    &__wrp {
+        margin: 200px auto 0 auto;
+        display: flex;
+        max-width: 500px;
+    }
+
+    &__text {
+        color: white;
+        text-align: center;
+        @include font(32px, 28px, 400);
+    }
+
+    &__arrival,
+    &__departure {
+        margin: auto;
+    }
+
+    &__arrow {
+        margin: auto;
+    }
+
+    &__img {
+        color: white;
+    }
+}
